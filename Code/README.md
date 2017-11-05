@@ -4,7 +4,7 @@ This folder contains all of the code files needed to perform the fish tracking s
 ## General process and structure
 FishTracker.m is the main function file which calls all other function files in this folder. All other function files serve as sub-processes within this main function. 
 
-The fish tracking is done in three steps: 
+The fish tracking is done in four steps: 
 1. The centroid of fish are tracked using blob detection. The code identifies how many fish there are in the first frame and tracks only those fish. If a fish is not visible in the first frame of the motion capture, it will not be tracked. 
 2. Nans are removed and interpolated. Fish centroid tracking is smoothed with a Kalman filter. 
 3. The results from centroid tracking are then used to track the body length of the fish. This is done by 
