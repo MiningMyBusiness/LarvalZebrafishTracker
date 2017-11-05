@@ -24,8 +24,12 @@ The images and videos below show the result of fish tracking accomplished with t
 #### Multiple fish: centroid tracking
 <img src="https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/MultipleFish_centroid.jpg" width="300">
 
+The centroid tracking is overlaid on a combined image of the first and last frame of the video. The color of the tracking is indicative of time. Later frames are plotted in a redder color. 
+
 #### One fish: body tracking
 ![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/OneFish_tracked_crop.gif "One Fish")
 
 #### Multiple fish: body tracking
 ![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/MultipleFish_tracked_crop.gif "Multiple Fish")
+
+The body tracking is overlaid in blue on the video of the swimming fish. The code tracks 19 points along the fish body. 
