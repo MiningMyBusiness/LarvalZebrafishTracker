@@ -33,4 +33,4 @@ This function smooths the results from fish body tracking. It performs Step 4 fr
 This function interpolates any number of nans sandwiched between real values in any vector. Nans found in the beginning or end of the vector will not be interpolated. Other functions in this folder call this function to do that task. This function spans a wide a breadth of use outside of fish tracking.
 
 #### fourthOrderApprox.m
-This function outputs a fourth order approximation to any vector input. It is called by fishBodySmoother.m to do that task. 
+This function outputs a fourth order approximation to any vector input. It is called by fishBodySmoother.m to do that task. This function can also be used outside of fish tracking.
