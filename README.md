@@ -8,10 +8,10 @@ Larval zebrafish are increasingly common in biomedical and genetics research. A 
 The intention was to track multiple points on the body of the larval zebrafish swimming a dish. This dish could have one or multiple larval fish. The vidoes below show larval zebrafish responding to the presentation of a vibration (not visible or audible). The first dish only has one fish, while the second dish has 3. 
 
 #### One fish
-![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/OneFish_crop.gif "One Fish")
+![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/OneFish_crop.gif "One Fish")
 
 #### Multiple fish
-![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/MultipleFish_crop.gif "Multiple Fish")
+![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/MultipleFish_crop.gif "Multiple Fish")
 
 These vidoes were taken at 1000 frames per second.
 
@@ -19,17 +19,17 @@ These vidoes were taken at 1000 frames per second.
 The images and videos below show the result of fish tracking accomplished with the code. 
 
 #### One fish: centroid tracking
-<img src="https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/OneFish_centroid.jpg" width="300">
+<img src="https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/OneFish_centroid.jpg" width="300">
 
 #### Multiple fish: centroid tracking
-<img src="https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/MultipleFish_centroid.jpg" width="300">
+<img src="https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/MultipleFish_centroid.jpg" width="300">
 
 The centroid tracking is overlaid on a combined image of the first and last frame of the video. The color of the tracking is indicative of time. Later frames are plotted in a redder color. 
 
 #### One fish: body tracking
-![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/OneFish_tracked_crop.gif "One Fish")
+![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/OneFish_tracked_crop.gif "One Fish")
 
 #### Multiple fish: body tracking
-![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/MultipleFish_tracked_crop.gif "Multiple Fish")
+![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/MultipleFish_tracked_crop.gif "Multiple Fish")
 
 The body tracking is overlaid in blue on the video of the swimming fish. The code tracks 19 points along the fish body. 
