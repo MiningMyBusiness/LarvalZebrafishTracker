@@ -24,7 +24,7 @@ This the main function file that calls all other functions in this folder.
 This function tracks the centroid of the fish and smooths the results. Specifically, it performs Steps 1 and 2 in the process description found above. 
 
 #### fishBodyTracker.m 
-This function tracks the body of the fish with the help of the centroid tracking performed by the previous function. It performs Step 3 from the list above. 
+This function tracks the body of the fish with the help of the centroid tracking performed by the previous function. It performs Step 3 from the list above and all of its subcomponents. 
 
 #### fishBodySmoother.m 
 This function smooths the results from fish body tracking. It performs Step 4 from the list above. 
