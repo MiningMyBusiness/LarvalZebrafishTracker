@@ -13,7 +13,7 @@ The intention was to track multiple points on the body of the larval zebrafish s
 #### Multiple fish
 ![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/MultipleFish_crop.gif "Multiple Fish")
 
-These vidoes were taken at 1000 frames per second. All animated gifs on this page were made with the following [matlab code](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/gifMovieMaker.m) which is available in the VideoAndImages subdirectory of this repository. 
+These vidoes were taken at 1000 frames per second. All animated gifs on this page were made with the following [matlab code](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/gifMovieMaker.m) which is available in the [VideoAndImages](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages) subdirectory of this repository. 
 
 ## Results
 The images and videos below show the result of fish tracking accomplished with the code. 
