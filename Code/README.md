@@ -11,7 +11,7 @@ The fish tracking is done in four steps:
 * cropping the image around the tracked fish centroid for each frame to only include the fish in the cropped image. 
 * identifying the fish eyes and the swim bladder with blob detection in this cropped image.
 * using the center of the head and the center of swim bladder as the first two tracked points on the body.
-* using the vector from the center of the head to the swim bladder to start a line following algorithm to track the rest of the tail (17 additional points are tracked along the tail). 
+* using the vector from the center of the head to the swim bladder to start a line following algorithm to track the rest of the tail (17 additional points are tracked along the tail to make a total of 19 points along the entire body). 
 4. Spurious body tracking results and nans are removed and interpolated. Fish body tracking is smoothed with a Kalman filter and fitted with a fourth order polynomial. 
 
 ## Function descriptions
