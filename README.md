@@ -26,3 +26,6 @@ The images and videos below show the result of fish tracking accomplished with t
 
 #### One fish: body tracking
 ![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/OneFish_tracked_crop.gif "One Fish")
+
+#### Multiple fish: body tracking
+![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/MultipleFish_tracked_crop.gif "Multiple Fish")
