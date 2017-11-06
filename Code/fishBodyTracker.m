@@ -125,12 +125,20 @@ for jj = 1:size(myImgs, 1) % for every frame
                 headPos = allCenters(sortIndx(2),:); % store head position
                 bladPos = allCenters(sortIndx(1),:); % store swim bladder position
             elseif numOfObjs == 3 % if three blobs were found (two eyes and one swim bladder, hopefully)
+                if jj == 1 % if this is the first frame
+                    headPos = fishPos; % set the last head position as the fish centroid position
+                end
                 Z = pdist2(allCenters, headPos); % find pairwise distances between blobs and last head position
                 [minVal, minIndx] = min(round(Z)); % get minimum distance between blobs and last head position
                 headPos = mean(allCenters(minIndx,:), 1); % store head position as the closest blob to the last head position
-                Z = pdist2(allCenters, bladPos); % find pairwise distnces between blobs and the last bladder position
-                [minVal, minIndx] = min(round(Z)); % get minimum distance between blobs and last bladder position
-                bladPos = mean(allCenters(minIndx,:), 1); % store swim bladder position
+                if jj > 1 % if this is not the first frame
+                    Z = pdist2(allCenters, bladPos); % find pairwise distnces between blobs and the last bladder position
+                    [minVal, minIndx] = min(round(Z)); % get minimum distance between blobs and last bladder position
+                    bladPos = mean(allCenters(minIndx,:), 1); % store swim bladder position
+                else % if it is the first frame
+                    [maxVal, maxIndx] = max(round(Z)); % get max distance between blobs and last head position
+                    bladPos = mean(allCenters(maxIndx,:), 1); % store baldder position as the farthest blob to the last head position
+                end
             end
             % track fish body 
             fishBodyPts_frm(1,:) = headPos; % save head and bladder position in fish body points matrix

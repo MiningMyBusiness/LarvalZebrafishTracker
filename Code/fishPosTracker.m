@@ -264,7 +264,7 @@ function trackedPos = fishPosTracker(fishMovieDir, imgExt, avgFishLength, fps, i
             title(['Tracking for ' num2str(numOfFish) ' fish.'])
         end
     else 
-        trackedPos = nan;
+        trackedPos = fishCenter;
         waitbar(1);
     end
 end % end of fishPosTracker fcn
