@@ -29,6 +29,9 @@ The centroid tracking is overlaid on a combined image of the first and last fram
 #### One fish: body tracking
 ![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/OneFish_tracked_crop.gif "One Fish")
 
+The following shows a zoom-in on the fish above. 
+![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/OneFish_zoom.gif "One Fish")
+
 #### Multiple fish: body tracking
 ![alt text](https://github.com/MiningMyBusiness/LarvalZebrafishTracker/raw/master/VideoAndImages/MultipleFish_tracked_crop.gif "Multiple Fish")
 
